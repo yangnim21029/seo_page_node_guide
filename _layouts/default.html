@@ -3,13 +3,27 @@
 <head>
   <meta charset="UTF-8">
   <title>{{ page.title }}</title>
+  <!-- Picnic CSS CDN -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/picnic">
   <style>
-ul { margin-left: 1em; }
-li { margin-bottom: 0.3em; }
-strong { color: #2d5016; }
-</style>
+    /* 可根據需要微調一些全域樣式 */
+    body {
+      padding: 2em;
+      background: #f7faf7;
+    }
+    .folder-title {
+      color: #3e7e19;
+      font-weight: bold;
+      margin-top: 1.5em;
+    }
+    .nav-list {
+      margin-bottom: 2em;
+    }
+  </style>
 </head>
 <body>
-  {{ content }}
+  <main>
+    {{ content }}
+  </main>
 </body>
 </html>
