@@ -1,7 +1,5 @@
 ---
-# 告訴 Jekyll 使用我們剛剛建立的 linktree 版面
 layout: linktree
-# 設定這個頁面本身的標題
 title: Hydra Juice - Links
 ---
 
