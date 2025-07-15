@@ -1,0 +1,8 @@
+title: seo 編輯
+description: 你的網站描述
+
+# 這個設定至關重要！請換成您自己的儲存庫名稱
+baseurl: "/seo_page_node_guide" 
+
+# 建議也一併設定 url
+url: "https://yangnim21029.github.io" 
