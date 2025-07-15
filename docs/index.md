@@ -22,11 +22,6 @@ description: "所有 SEO 編輯所需的知識與指南。"
         {% for item in pages_to_show %}
           <div class="mb-4">
             <a class="button is-fullwidth is-large has-text-weight-medium" href="{{ site.baseurl }}{{ item.url }}">
-              {% if item.icon %}
-              <span class="icon is-medium">
-                <i class="{{ item.icon }}"></i>
-              </span>
-              {% endif %}
               <span>{{ item.title }}</span>
             </a>
           </div>
@@ -39,19 +34,8 @@ description: "所有 SEO 編輯所需的知識與指南。"
 
 <style>
   body {
-    /* 深色背景 */
     background-color: #1c222e; 
-    
-    /* 如果您想用背景圖片，請使用以下樣式並調整圖片路徑 */
-    /*
-    background-image: linear-gradient(rgba(28, 34, 46, 0.8), rgba(28, 34, 46, 0.95)), url('{{ site.baseurl }}/assets/images/your-background.jpg');
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    */
   }
-
-  /* 按鈕樣式 */
   .button {
     background-color: rgba(255, 255, 255, 0.1);
     color: #ffffff;
@@ -60,19 +44,8 @@ description: "所有 SEO 編輯所需的知識與指南。"
     padding-top: 0.8em;
     padding-bottom: 0.8em;
     transition: background-color 0.2s ease-out;
-    justify-content: center; /* 讓圖示和文字水平置中 */
   }
-
   .button:hover {
     background-color: rgba(255, 255, 255, 0.15);
   }
-
-  .button .icon {
-    position: absolute;
-    left: 1.5rem; /* 將圖示固定在左側 */
-  }
-  .button span:last-child {
-    flex-grow: 1; /* 讓文字佔據剩餘空間以保持置中 */
-  }
-
 </style>
