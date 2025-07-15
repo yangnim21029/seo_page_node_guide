@@ -1,6 +1,7 @@
 ---
 layout: linktree
-title: Hydra Juice - Links
+title: Editor's SEO Guide
+description: Topic and Pages Guide
 ---
 
 {% assign pages_to_show = site.pages | where_exp: "p", "p.title" | where_exp: "p", "p.url != page.url" %}
