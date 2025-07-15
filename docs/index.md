@@ -1,7 +1,7 @@
 ---
 layout: default
 title: SEO 編輯模板
-description: 露營、活動類內容的撰寫重點與 SEO 結構建議
+description: 各種編輯所需的 SEO 知識彙整
 ---
 
 # 內容分類總覽
