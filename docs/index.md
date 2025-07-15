@@ -4,11 +4,9 @@ title: SEO 編輯模板
 description: 各種編輯所需的 SEO 知識彙整
 ---
 
-# 內容分類總覽
-
 <div class="card-grid">
 {% for page in site.pages %}
-  {% if page.dir == "/docs/" and page.url != "/index.html" and page.title %}
+  {% if page.url != "/index.html" and page.title %}
     <div class="card">
       <h2 class="card-title">{{ page.title }}</h2>
       <p class="card-desc">{{ page.description }}</p>
